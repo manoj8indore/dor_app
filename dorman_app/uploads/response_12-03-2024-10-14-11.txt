@@ -1,0 +1,78 @@
+connecting...
+connected
+atz
+atz1
+atrv
+atz�atl1
+ate1
+atsp6
+atdp
+ELM327 v1.5>atdpISO 15765-4 (CAN 11/500)>atcaf0
+atcaf0OK>atar
+atarOK>atat0
+atat0OK>ath1
+ath1OK>ats0
+ats0OK>atsh740
+atsh740OK>atcf4C0
+atcf4C0OK>atcm4C0
+atcm4C0OK>atcfc1
+atcfc1OK>atfcsh740
+atfcsh740OK>atfcsd30
+atfcsd30OK>atfcsm1
+atfcsm1OK>atr1
+atr1OK>ate1
+ate1OK>atat1
+atat1OK>atst05
+atst05OK>at_023e01
+at_023e01?>at_021003
+at_021003?>atz
+atz1
+atz�atrv
+atl1
+ate1
+ELM327 v1.5>atsp6
+atsp6OK>atdp
+atdpISO 15765-4 (CAN 11/500)>atcaf0
+atcaf0OK>atar
+atarOK>atat0
+atat0OK>ath1
+ath1OK>ats0
+ats0OK>atsh740
+atsh740OK>atcf4C0
+atcf4C0OK>atcm4C0
+atcm4C0OK>atcfc1
+atcfc1OK>atfcsh740
+atfcsh740OK>atfcsd30
+atfcsd30OK>atfcsm1
+atfcsm1OK>atr1
+atr1OK>ate1
+ate1OK>atat1
+atat1OK>atst05
+atst05OK>at_023e01
+at_023e01?>at_021003
+at_021003?>atz
+atz1
+atrv
+atz�atl1
+ate1
+atsp6
+ELM327 v1.5>atdp
+atdpISO 15765-4 (CAN 11/500)>atcaf0
+atcaf0OK>atar
+atarOK>atat0
+atat0OK>ath1
+ath1OK>ats0
+ats0OK>atsh740
+atsh740OK>atcf4C0
+atcf4C0OK>atcm4C0
+atcm4C0OK>atcfc1
+atcfc1OK>atfcsh740
+atfcsh740OK>atfcsd30
+atfcsd30OK>atfcsm1
+atfcsm1OK>atr1
+atr1OK>ate1
+ate1OK>atat1
+atat1OK>atst05
+atst05OK>at_023e01
+at_023e01?>at_021003
+at_021003?>

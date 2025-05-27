@@ -1,0 +1,4 @@
+connecting...
+connected
+atz
+connection lost: not connected

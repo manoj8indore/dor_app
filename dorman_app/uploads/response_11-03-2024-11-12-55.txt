@@ -1,0 +1,28 @@
+connecting...
+connected
+atz
+atz�atz
+atrv
+atl1
+ate1
+ELM327 v1.5>atsp6
+atsp6OK>atdp
+atdpISO 15765-4 (CAN 11/500)>atcaf0
+atcaf0OK>atar
+atarOK>atat0
+atat0OK>ath1
+ath1OK>ats0
+ats0OK>atsh740
+atsh740OK>atcf4C0
+atcf4C0OK>atcm4C0
+atcm4C0OK>atcfc1
+atcfc1OK>atfcsh740
+atfcsh740OK>atfcsd30
+atfcsd30OK>atfcsm1
+atfcsm1OK>atr1
+atr1OK>ate1
+ate1OK>atat1
+atat1OK>atst05
+atst05OK>023e01
+023e01NO DATA>021003
+021003NO DATA>connection lost: bt socket closed, read return: -1

@@ -1,0 +1,140 @@
+<style>
+    /*.sidebar-brand-icon img {
+   height: 40px;
+   width: 200px;
+}*/
+   /* @media (min-width: 768px){
+.sidebar-brand-icon img {
+    width: 100px;
+   height: 40px
+}
+}*/
+
+</style>
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex flex-column align-items-center justify-content-center my-3" href="#">
+                <div class="sidebar-brand-icon">
+                   <img class="img-fluid"
+                                    src="<?php echo base_url().'assets/img/dorman_logo.gif' ?>" >
+                    <div class="sidebar-brand-text mx-3"><?php echo $this->session->userdata('username'); ?></div>
+                </div>
+                
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url()?>select_vehicle">
+                    <i class="fab fa-bluetooth fa-2x"></i>
+                    <span>Select Vehicle</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url()?>vehicle">
+                    <i class="fab fa-bluetooth fa-2x"></i>
+                    <span>Log File</span></a>
+            </li>
+
+           
+
+            <!-- Divider -->
+            <!--<li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities8"
+                    aria-expanded="true" aria-controls="collapseUtilities8">
+                    <i class="fas fa-fw fa-file-pdf"></i>
+                    <span>Orders</span>
+                </a>
+                <div id="collapseUtilities8" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="<?php echo base_url()?>orders">Order List</a>
+                    </div>
+                </div>
+            </li>-->
+             <hr class="sidebar-divider">
+         
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
+                    <i class="fas fa-power-off icon-nav"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+
+            <!-- Divider -->
+            <!-- <hr class="sidebar-divider d-none d-md-block"> -->
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline mt-5">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav mr-auto">
+
+                        <!-- Web Page Logo -->
+                       <!--  <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="logo"
+                                    src="<?php //echo base_url().'assets/img/dorman_logo.gif' ?>" width="200px" height="40px">
+                            </a>
+                        </li> -->
+
+                       <!--  <div class="topbar-divider d-none d-sm-block"></div> -->
+
+                        <!-- Web Page Title -->
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">
+                                <div class="text-lg text-dark font-weight-bold">Dorman App</div>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Logout Modal-->
+                <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="logoutModal"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold text-primary mx-3 mt-3" id="logoutModalLabel">Are you sure you're going out?</h5>
+                                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body mx-3 mb-4">Select the "Logout" button below if you are ready to end this session.</div>
+                            <div class="modal-footer d-flex m-3">
+                                <button class="flex-fill btn btn-secondary p-2 rounded-pill" type="button" data-dismiss="modal">Cancel</button>
+                                <a class="flex-fill btn btn-danger p-2 rounded-pill" href="<?php echo base_url().'logout'?>">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
