@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://nevaloss-portfolio.com/dorman_app/';
+$config['base_url'] = 'dormanapp-btd8apa0ewgyagha.canadacentral-01.azurewebsites.net';
 
 /*
 |--------------------------------------------------------------------------
